@@ -147,13 +147,16 @@ Hemos encontrado la contraseña de un usuario, por lo que ahora podemos entrar a
 <img width="672" height="381" alt="image" src="https://github.com/user-attachments/assets/721c23d5-a80d-4a57-9384-edf8c55b2d22" />
 
 
+
 Hemos conseguido entrar al recurso con el usuario jon.
 
 Vemos que hay un archivo llamado paraJon
+
 <img width="614" height="191" alt="image" src="https://github.com/user-attachments/assets/47790353-113d-4cc4-a38d-b5dd5f356c1d" />
 
 
 Vamos a llevárnoslo con el comando get a nuestra máquina.
+
 <img width="932" height="123" alt="image" src="https://github.com/user-attachments/assets/cc4987c6-2ab1-4d30-97c4-b1b26b5efeab" />
 
 
@@ -165,7 +168,9 @@ Ahora vamos al recurso compartido y nos llevaremos el archivo que existe
 <img width="1136" height="97" alt="image" src="https://github.com/user-attachments/assets/5cea80fe-3267-4ef6-a063-9a128eb72881" />
 
 
-Descifraremos la contraseña, está en base64
+Decodificaremos la contraseña, está en base64
+
+
 <img width="455" height="61" alt="image" src="https://github.com/user-attachments/assets/589131c9-dd4f-4c2f-a9d6-5bb088bbb54f" />
 
 Tendremos la contraseña de Jon para ssh
@@ -199,6 +204,7 @@ os.system("/bin/bash")
 ```
 
 Ahora podremos ejecutar el archivo.
+
 <img width="594" height="29" alt="image" src="https://github.com/user-attachments/assets/0a1dedc4-112e-4f92-869c-f39195543d8e" />
 
 
@@ -215,6 +221,7 @@ Vemos que puede usar cat y ls suplantando el usuario de daenerys.
 Hemos conseguido la contraseña de daenerys.
 
 Podemos seguir leyendo archivos
+
 <img width="640" height="158" alt="image" src="https://github.com/user-attachments/assets/71b53479-b34d-4dff-b60a-891bb337aad7" />
 
 
