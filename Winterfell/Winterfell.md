@@ -205,31 +205,39 @@ Ahora podremos ejecutar el archivo.
 De esta forma habremos conseguido entrar al usuario de aria.
 
 Listaremos el contenido de la carpeta de aria y los permisos de este usuario
-![[Pasted image 20260930181349.png]]
+<img width="1006" height="219" alt="image" src="https://github.com/user-attachments/assets/4821bcc0-57aa-49f2-9ed8-674ad7934200" />
+
 
 Vemos que puede usar cat y ls suplantando el usuario de daenerys.
 
-![[Pasted image 20260930181704.png]]
+<img width="1132" height="143" alt="image" src="https://github.com/user-attachments/assets/ec82e7b9-f7e3-4605-afc7-f9fe4c091be7" />
+
 Hemos conseguido la contraseña de daenerys.
 
 Podemos seguir leyendo archivos
-![[Pasted image 20260930182009.png]]
+<img width="640" height="158" alt="image" src="https://github.com/user-attachments/assets/71b53479-b34d-4dff-b60a-891bb337aad7" />
 
-![[Pasted image 20260930182213.png]]
 
-![[Pasted image 20260930182230.png]]
+<img width="718" height="76" alt="image" src="https://github.com/user-attachments/assets/3adcec5e-a625-4bee-8e3c-dee26fa9b173" />
+
+
+<img width="765" height="62" alt="image" src="https://github.com/user-attachments/assets/53b9b4bd-aaf5-455d-ad2b-5fb4d8798c5f" />
+
 
 Este es un codigo para crear una reverse shell.
 
 Vamos a usar el usuario daenerys
 
-![[Pasted image 20260930182340.png]]
+<img width="1061" height="143" alt="image" src="https://github.com/user-attachments/assets/a6b9333a-6a08-4db2-8886-d9822a2f5afc" />
+
 
 Vemos que el archivo .shell.sh lo puede ejecutar como root sin contraseña
 
 Cambiamos el contenido de .shell.sh para cambiar los permisos de bin/bash a SUID
 
-![[Pasted image 20260930184014.png]]
-![[Pasted image 20260930184253.png]]
+<img width="955" height="173" alt="image" src="https://github.com/user-attachments/assets/08ac01c0-5ad9-4a2b-b69f-e3330f3d2367" />
+
+<img width="365" height="66" alt="image" src="https://github.com/user-attachments/assets/69922a76-6195-4d1b-974c-8bd1f3d82486" />
+
 
 Somos root y hemos completado la máquina
