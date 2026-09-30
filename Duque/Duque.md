@@ -17,6 +17,7 @@ sudo bash auto_deploy.sh duque.tar
 ```
 
 Obtenemos la IP de la máquina.
+
 ![](Fotos/Pasted%20image%2020260930232627.png)
 
 Probaremos la conexión mediante un ping
