@@ -1,6 +1,6 @@
 Dificultad -> Fácil
 
-Enlace a la máquina -> [Dockerlabs](https://dockerlabs.es/maquinas/121/descargar)
+Enlace a la máquina -> [Dockerlabs](https://dockerlabs.es/maquinas/243/descargar)
 
 # Archivos
 .sh → Script de Linux con comandos. Se ejecuta en la terminal.
