@@ -17,6 +17,7 @@ sudo bash auto_deploy.sh ejotapete.tar
 ```
 
 Obtenemos la IP de la máquina.
+
 ![](Fotos/Pasted%20image%2020261002164405.png)
 
 # Escaneo
